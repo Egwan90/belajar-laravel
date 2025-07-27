@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: ghcr.io/gonjali/absensi-laravel
+  REGISTRY: ghcr.io/egwan90/absensi-guru
   GH_REGISTRY: ghcr.io
-  IMAGE_NAME: absensi-laravel
+  IMAGE_NAME: absensi-guru
   DOCKER_BUILDKIT: 1
 
 jobs:
