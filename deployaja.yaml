@@ -35,6 +35,11 @@ env:
   - name: DB_SSLMODE
     value: disable
 asset_url: absensi-guru.deployaja.id
+dependencies:
+  - name: "postgres"
+    type: "POSTGRESQL"
+    version: "15"
+    storage_size: "2Gi"
 envMap:
     domain_env: APP_URL
 
