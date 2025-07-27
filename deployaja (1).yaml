@@ -1,4 +1,4 @@
-name: laravel-absensi-pp
+name: absensi guru
 version: latest
 description: Laravel Absensi dengan PHP-FPM dan Nginx
 container:
@@ -54,5 +54,5 @@ env:
 envMap:
     domain_env: APP_URL
 
-domain: absensipp.deployaja.id
+domain: absensi-guru.deployaja.id
 
