@@ -1,4 +1,4 @@
-name: absensi guru
+name: absensi-guru
 version: latest
 description: Laravel Absensi dengan PHP-FPM dan Nginx
 container:
@@ -34,23 +34,7 @@ env:
     userManaged: true
   - name: DB_SSLMODE
     value: disable
-#insert from github variable/secret
-  - name: DB_HOST
-    value: localhost
-    userManaged: true
-  - name: DB_DATABASE
-    value: absensi
-    userManaged: true
-  - name: DB_USERNAME
-    value: postgres
-    userManaged: true
-  - name: DB_PASSWORD
-    value: postgres
-    userManaged: true
-  - name: DB_PORT
-    value: 5432
-    userManaged: true
-
+asset_url: absensi-guru.deployaja.id
 envMap:
     domain_env: APP_URL
 
